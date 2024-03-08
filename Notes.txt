@@ -1,0 +1,49 @@
+ .flex-item.item-$*9>{Box-$} ---->code for creating a 9 div with same classs Name 
+
+
+
+1.Justify-content 
+
+* justiy content (total element)=>Main axis allignment is default 
+* row Main axis => X-axis
+* column Main axis =>Y-axis
+
+
+2.Align items(align each of the element in the flex-item)  => working in cross axis allignment
+               =>row cross axis =>y axis
+               =>column cross axis =>x  axis
+
+// FOR ROW TYPE:
+
+.container
+{
+    display:flex;
+    flex-direction:row;
+    height:600px;
+    align-items:strech; ==> basicly streching the items(join eachother).
+    align-items:baseline;=> text lines are  aligned at the baseline of each line // we have use in the navigation bar for logo 
+                                                                                    and other link items.
+    align-items:flex-end;
+}
+
+// FOR COLUMN TYPE :
+
+.container
+{
+    display:flex;
+    height:600px;
+    flex-direction:column;
+    align-items:strech;
+    align-items:flex-start;
+    align-items:flex-end;
+
+
+}
+
+3.Align content() => by default it is in strech(align-content:strech)
+                =>
+
+
+
+
+4.
